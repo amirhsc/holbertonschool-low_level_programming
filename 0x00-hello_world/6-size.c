@@ -6,17 +6,11 @@
  */
 int main(void)
 {
-  long long long_tp;
-  float float_tp;
-  long long_ttp;
-  char char_tp;
-  int int_tp;
-
-  printf("Size of a char: %lu byte(s)\n", sizeof(char_tp));
-  printf("Size of an int: %lu byte(s)\n", sizeof(int_tp));
-  printf("Size of a long int: %lu byte(s)\n", sizeof(long_ttp));
-  printf("Size of a long long int: %lu byte(s)\n", sizeof(long_tp));
-  printf("Size of a float: %lu byte(s)\n", sizeof(float_tp));
+  puts("Size of a char: %d byte(s)\n", sizeof(char));
+  puts("Size of an int: %d byte(s)\n", sizeof(int));
+  puts("Size of a long int: %d byte(s)\n", sizeof(long int));
+  printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+  printf("Size of a float: %d byte(s)\n", sizeof(float));
 
   return (0);
 }
