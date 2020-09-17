@@ -6,36 +6,16 @@
  */
 int main(void)
 {
-	char abc = 'a';
+char abc = 'a';
 
-	while (abc <= 'z')
-	{
-		if (abc != 'q' && abc != 'e')
-			putchar(abc);
-
-		abc++;
-	}
-
-	putchar('\n');
-	return (0);
-}#include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success
- */
-int main(void)
+while (abc <= 'z')
 {
-	char abc = 'a';
+if (abc != 'q' && abc != 'e')
+putchar(abc);
 
-	while (abc <= 'z')
-	{
-		if (abc != 'q' && abc != 'e')
-			putchar(abc);
+abc++;
+}
 
-		abc++;
-	}
-
-	putchar('\n');
-	return (0);
+putchar('\n');
+return (0);
 }

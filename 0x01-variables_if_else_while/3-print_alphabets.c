@@ -1,4 +1,4 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 #include <ctype.h>
 #include <stdio.h>
 /**
@@ -8,15 +8,13 @@ nclude <stdlib.h>
  */
 int main(void)
 {
-	char abc = 'a';
-	char ABC = 'A';
+char abc = 'a';
+char ABC = 'A';
+while (abc <= 'z')
+putchar(abc++);
 
-	while (abc <= 'z')
-		putchar(abc++);
-
-	while (ABC <= 'Z')
-		putchar(ABC++);
-
-	putchar('\n');
-	return (0);
+while (ABC <= 'Z')
+putchar(ABC++);
+putchar('\n');
+return (0);
 }
