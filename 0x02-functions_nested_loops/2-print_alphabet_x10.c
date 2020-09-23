@@ -15,7 +15,7 @@ for (letter = 97; letter < 123; ++letter)
 {
 _putchar(letter);
 }
+_putchar('\n');
 _putchar(10);
 }
-_putchar('\n');
 }
