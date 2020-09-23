@@ -1,21 +1,21 @@
 #include "holberton.h"
-
 /**
-* print_alphabet - First Prorotype/Function
-*/
-
+ * print_alphabet_x10 - Entry point
+ *
+ * Return: void
+ */
 void print_alphabet_x10(void)
 {
-int i;
-for (i = 0; i < 10; i++)
-{
-int letter;
+	char *c = "abcdefghijklmnopqrstuvwxyz";
+	char *t = c;
+	int i;
 
-for (letter = 97; letter < 123; ++letter)
-{
-_putchar(letter);
-}
-_putchar('\n');
-_putchar(10);
-}
+	for (i = 0; i < 10; i++)
+	{
+		while (*c)
+			_putchar(*(c++));
+
+		_putchar('\n');
+		c = t;
+	}
 }
